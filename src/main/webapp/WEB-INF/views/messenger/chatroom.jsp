@@ -28,18 +28,18 @@ charset=UTF-8" pageEncoding="UTF-8"%>
 		<input type="hidden" id="roomNum" value="${roomNum}">
 	
 		<div class="header">
-                <div class="header-flex">
-                    <div class="tinum">
-                        <div class="title">
-                            <span><strong>${rn}</strong></span>
-                        </div>
-                        <div class="number">
-                            <img src="/img/chatroom-number.png" width="15px" height="15px">
-                            <span>${count}</span>
-                        </div>
+            <div class="header-flex">
+                <div class="tinum">
+                    <div class="title">
+                        <span><strong>${rn}</strong></span>
+                    </div>
+                    <div class="number">
+                        <img src="/img/chatroom-number.png" width="15px" height="15px">
+                        <span>${count}</span>
                     </div>
                 </div>
             </div>
+        </div>
 		
 		<div id="chating" class="chating">
 		
